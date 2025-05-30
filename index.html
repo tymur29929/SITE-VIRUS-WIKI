@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Computer Virus Encyclopedia</title>
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+  <header>
+    <h1 id="site-title">Computer Virus Encyclopedia</h1>
+    <div class="controls">
+      <button onclick="toggleTheme()" id="themeBtn">Toggle Theme</button>
+      <button onclick="toggleLanguage()" id="langBtn">Change Language</button>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#viruses">Viruses</a>
+    <a href="#about">About</a>
+  </nav>
+
+  <section id="home">
+    <h2 id="home-title">Welcome</h2>
+    <p id="home-description">Explore the most infamous computer viruses in history.</p>
+  </section>
+
+  <section id="viruses">
+    <h2 id="virus-title">Virus Directory</h2>
+    <div id="virusContainer" class="grid"></div>
+  </section>
+
+  <section id="about">
+    <h2 id="about-title">About This Site</h2>
+    <p id="about-description">
+      This encyclopedia is an educational resource covering major computer viruses, their history, and impact.
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2025 Virus Encyclopedia</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
